@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Suscríbete a nuestro newsletter</title>
+</head>
+
+<body>
+
+    <section class="form-wrapper">
+        <div class="logo">
+            <img src="../img/logo.png">
+        </div>
+        <h1>Suscríbete a nuestro newsletter</h1>
+        <p>Mantente enterado de la información más importante.</p>
+        <form method="GET" action="https://app.embluemail.com/Online/TriggerUrlExterna.aspx" onsubmit="return validateForm();" novalidate="">
+            <input type="hidden" name="key" value="5b01854a-58e7-41c5-8f01-699172dc2c5f">
+
+            <div class="input">
+                <label>Nombre</label><br>
+                <input id="1754686" type="text" name="1754686" placeholder="Nombre completo" data-error="Campo requerido|Formato inválido">
+            </div>
+            <div class="input">
+                <label>Correo electrónico</label><br>
+                <input input id="email" type="email" placeholder="miemail@miemail.com" name="email" required="" data-error="Campo requerido|Formato inválido">
+            </div>
+            <div class="input">
+                <label>Teléfono</label><br>
+                <input id="1754690" placeholder="Fijo o móvil" type="text" name="1754690" data-error="Campo requerido|Formato inválido">
+            </div>
+            <div class="input">
+                <label>Empresa</label><br>
+                <input id="1754700" type="text" name="1754700" data-error="Campo requerido|Formato inválido">
+            </div>
+            <div class="input">
+                <label>Cargo</label><br>
+                <input id="1754701" type="text" name="1754701" data-error="Campo requerido|Formato inválido">
+            </div>
+
+            <div>
+                <button type="submit" name="Enviar" value="">Suscribe</button>
+            </div>
+            <div>
+              <input type="hidden" placeholder="Evento" value="suscripcion_news" name="evento" />
+              <input type="hidden" name="token" value="25a91aa11d0443c1ace59204a43c71d8" />
+            </div>
+            <div>
+              <input type="hidden" name="redir" value="https://cloudstorage.embluemail.com/clientes/Templates/redirec_forms.html" />
+            </div>
+        </form>
+    </section>
+
+    <script type="text/javascript" src="https://app.embluemail.com/emblue/form_validation.js"></script>
+
+</body>
+
+</html>

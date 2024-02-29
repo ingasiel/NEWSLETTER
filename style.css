@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: rgb(226, 42, 44);
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 13px;
+    cursor: pointer;
+    letter-spacing: 0px;
+    width: 100%;
+    margin-top: 30px
+}
+
+.form-wrapper{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    margin: 30px;
+    padding: 60px;
+    flex-direction: column;
+}
+
+h1 ,p{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 53%;
+}
+
+label{
+    font-weight: bold;
+    font-size: 15px;
+    color: #222222;
+    
+}
+
+input{
+    background-color: #fff;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px 0 24px;
+   
+    padding: 6px;
+    vertical-align: middle;
+    width: 94%;
+
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+
+}
+
+.input{
+    width: 100%;
+    
+}
+
+h1{
+    color: #222222;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: normal;
+    box-sizing: border-box !important;
+}
+
+p{
+    font-size: 16px;
+    color: #808080;
+    padding-bottom: 40px;
+}
+
+.logo{
+    width: 100%;
+    text-align: center
+}
+
+.logo img{    
+    width: 200px;
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+ .form-wrapper{
+    padding-top: 40px;
+ }
+
+ form{
+    width: 100%;
+ }
+
+ .logo img{
+    width: 120px;
+ }
+
+ h1{
+    font-size: 25px;
+    line-height: 27px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+ }
+ }
+ 
+ 
